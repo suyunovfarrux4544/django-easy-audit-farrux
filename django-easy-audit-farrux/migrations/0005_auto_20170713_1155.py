@@ -8,7 +8,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('easyaudit', '0004_auto_20170620_1354'),
+        ('django-easy-audit-farrux', '0004_auto_20170620_1354'),
     ]
 
     operations = [

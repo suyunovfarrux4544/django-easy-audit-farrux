@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 
 class EasyAuditConfig(AppConfig):
-    name = 'easyaudit'
+    name = 'django-easy-audit-farrux'
     verbose_name = 'Easy Audit Application'
     default_auto_field = 'django.db.models.AutoField'
 

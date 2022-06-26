@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'easyaudit',
+    'django-easy-audit-farrux',
     'test_app',
 ]
 
@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'easyaudit.middleware.easyaudit.EasyAuditMiddleware',
+    'django-easy-audit-farrux.middleware.django-easy-audit-farrux.EasyAuditMiddleware',
 ]
 
 ROOT_URLCONF = 'test_project.urls'

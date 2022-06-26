@@ -12,7 +12,7 @@ def drop_index_if_exists(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('easyaudit', '0012_auto_20181018_0012'),
+        ('django-easy-audit-farrux', '0012_auto_20181018_0012'),
     ]
 
     operations = [

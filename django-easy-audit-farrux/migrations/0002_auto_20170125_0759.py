@@ -10,7 +10,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('easyaudit', '0001_initial'),
+        ('django-easy-audit-farrux', '0001_initial'),
     ]
 
     operations = [

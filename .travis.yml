@@ -22,7 +22,7 @@ install:
     - pip install -e .
 
 before_script:
-    - cd easyaudit/tests
+    - cd django-easy-audit-farrux/tests
 
 script:
     - python manage.py test

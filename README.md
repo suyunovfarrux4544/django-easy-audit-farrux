@@ -18,7 +18,7 @@ This app allows you to keep track of every action taken by your users.
     ```python
     INSTALLED_APPS = [
         ...
-        'easyaudit',
+        'django-easy-audit-farrux',
     ]
     ```
 
@@ -27,7 +27,7 @@ This app allows you to keep track of every action taken by your users.
     ```python
     MIDDLEWARE = (
         ...
-        'easyaudit.middleware.easyaudit.EasyAuditMiddleware',
+        'django-easy-audit-farrux.middleware.django-easy-audit-farrux.EasyAuditMiddleware',
     )
     ```
 

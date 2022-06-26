@@ -11,7 +11,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
-        ('easyaudit', '0005_auto_20170713_1155'),
+        ('django-easy-audit-farrux', '0005_auto_20170713_1155'),
     ]
 
     operations = [

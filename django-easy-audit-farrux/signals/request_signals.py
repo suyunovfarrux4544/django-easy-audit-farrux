@@ -7,7 +7,7 @@ from django.conf import settings
 from django.utils.module_loading import import_string
 
 # try and get the user from the request; commented for now, may have a bug in this flow.
-# from easyaudit.middleware.easyaudit import get_current_user
+# from django-easy-audit-farrux.middleware.django-easy-audit-farrux import get_current_user
 from easyaudit.settings import REMOTE_ADDR_HEADER, UNREGISTERED_URLS, REGISTERED_URLS, WATCH_REQUEST_EVENTS, \
     LOGGING_BACKEND
 

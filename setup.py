@@ -24,9 +24,9 @@ setuptools.setup(
     license='GPL3',
     description='Yet another Django audit log app, hopefully the simplest one.',
     long_description=README,
-    url='https://github.com/soynatan/django-easy-audit',
-    author='Natán Calzolari',
-    author_email='natancalzolari@gmail.com',
+    url='https://github.com/suyunovfarrux4544/django-easy-audit-farrux.git',
+    author='Suyunov Farrux',
+    author_email='suyunovfarrux4544@gmail.com',
     classifiers=[
         'Environment :: Plugins',
         'Framework :: Django',

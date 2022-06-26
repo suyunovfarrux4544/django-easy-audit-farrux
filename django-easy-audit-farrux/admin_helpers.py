@@ -135,6 +135,6 @@ class EasyAuditModelAdmin(admin.ModelAdmin):
         # Display the confirmation page
         return render(
             request,
-            'admin/easyaudit/purge_confirmation.html',
+            'admin/django-easy-audit-farrux/purge_confirmation.html',
             context
         )

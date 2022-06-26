@@ -9,7 +9,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('contenttypes', '0002_remove_content_type_name'),
-        ('easyaudit', '0003_auto_20170228_1505'),
+        ('django-easy-audit-farrux', '0003_auto_20170228_1505'),
     ]
 
     operations = [

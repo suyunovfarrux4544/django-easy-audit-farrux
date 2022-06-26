@@ -97,7 +97,7 @@ def pre_save(sender, instance, raw, using, update_fields, **kwargs):
 
                 def crud_flow():
                     try:
-                        # atomicity based on the easyaudit database alias
+                        # atomicity based on the django-easy-audit-farrux database alias
                         with transaction.atomic(using=DATABASE_ALIAS):
                             crud_event = audit_logger.crud({
                                 'event_type': event_type,
