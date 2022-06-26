@@ -1,6 +1,8 @@
 # -*- encoding: utf-8 -*-
 import os
-from setuptools import find_packages, setup
+import setuptools
+# from setuptools import find_packages, setup
+# from distutils.core import setup
 
 with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
     README = readme.read()
@@ -8,10 +10,11 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
-setup(
+setuptools.setup(
     name='django-easy-audit-farrux',
-    version='1.3.3.b2',
-    packages=find_packages(),
+    version='0.0.1',
+    # packages=find_packages(),
+    packages=['django-easy-audit-farrux'],
     include_package_data=True,
     install_requires=[
         "beautifulsoup4",
